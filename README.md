@@ -1,10 +1,3 @@
-# New Relic Custom Visualization Boilerplate
+# Cumualtive chart example
 
-This repo provides a starting boilerplate example for build a visualization. It comes with:
-
-- a context provider for configuration propagation. 
-- a nerdGraph query handler
-
-
-
-Rememebr to `npm install` :)
+Remember to `npm install` :)
