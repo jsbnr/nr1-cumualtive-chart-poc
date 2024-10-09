@@ -2,7 +2,7 @@ import React from "react";
 import { useProps } from "../context/VizPropsProvider";
 import { NrqlQuery, LineChart } from "nr1";
 
-const ExampleComponent = () => {
+const CumulativeChart = () => {
   const vizProps = useProps();
   const { accountId, query } = vizProps;
 
@@ -34,4 +34,4 @@ const ExampleComponent = () => {
   );
 };
 
-export default ExampleComponent;
+export default CumulativeChart;
