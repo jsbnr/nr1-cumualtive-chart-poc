@@ -2,7 +2,7 @@ import React from "react";
 import { AutoSizer } from "nr1";
 
 import EmptyState from "./components/EmptyState";
-import ExampleComponent from "./components/ExampleComponent";
+import CumulativeChart from "./components/CumulativeChart";
 
 const Viz = ({  }) => {
 
@@ -10,7 +10,7 @@ const Viz = ({  }) => {
     <AutoSizer>
       {({ width, height }) => {
         return (
-          <ExampleComponent />
+          <CumulativeChart />
         );
       }}
     </AutoSizer>
