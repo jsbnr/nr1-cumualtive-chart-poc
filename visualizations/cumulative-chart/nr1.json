@@ -1,0 +1,18 @@
+{
+    "schemaType": "VISUALIZATION",
+    "id": "cumulative-chart",
+    "displayName": "Cumulative Timeseries Chart",
+    "description": "",
+    "configuration": [{
+        "name": "accountId",
+        "title": "Account ID",
+        "description": "Account ID to be associated with the query",
+        "type": "account-id"
+    },
+    {
+        "name": "query",
+        "title": "Query",
+        "description": "NRQL query for visualization",
+        "type": "nrql"
+    }]
+}
